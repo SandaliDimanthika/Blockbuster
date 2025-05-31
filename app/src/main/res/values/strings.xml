@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Blockbuster</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_release_year">Movie Release Year</string>
+    <string name="movie_overview">Movie Overview</string>
+    <string name="movie_genre">Movie Genre</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+</resources>

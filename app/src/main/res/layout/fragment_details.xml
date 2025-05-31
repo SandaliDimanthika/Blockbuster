@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagePoster"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/movie_poster"
+            android:background="@color/design_default_color_background" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingTop="8dp"
+            android:text="@string/movie_title" />
+
+        <TextView
+            android:id="@+id/textReleaseYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="4dp"
+            android:text="@string/movie_release_year" />
+
+        <TextView
+            android:id="@+id/textGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="4dp"
+            android:text="@string/movie_genre" />
+
+        <TextView
+            android:id="@+id/textOverview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/black"
+            android:text="@string/movie_overview"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

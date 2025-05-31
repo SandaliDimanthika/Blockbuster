@@ -1,0 +1,11 @@
+<resources>
+    <color name="purple_primary">#6A1B9A</color>
+    <color name="purple_accent">#BA68C8</color>
+    <color name="purple_background">#6A1B9A</color>
+    <color name="purple_text">#1D0303</color>
+    <color name="purple_text_secondary">#1D0303</color>
+    <color name="purple_text_inactive">#1D0303</color>
+    <color name="purple_chip_bg">#1D0303</color>
+    <color name="purple_chip_text">#1D0303</color>
+    <color name="transparent">#00BF0F0F</color>
+</resources>
